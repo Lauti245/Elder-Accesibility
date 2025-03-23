@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnCall1"
+        android:layout_width="474dp"
+        android:layout_height="177dp"
+        android:padding="10dp"
+        android:text="Llamar a Victoria"
+        android:textSize="40sp" />
+    <Button
+        android:id="@+id/btnCall2"
+        android:layout_width="471dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Llamar a Lili"
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/btnCall3"
+        android:layout_width="462dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Llamar a Laura"
+        android:textSize="40sp"/>
+</LinearLayout>
